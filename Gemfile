@@ -7,8 +7,11 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
+group :test, :development do
+  gem 'sqlite3'
+end
 
-gem 'sqlite3'
+gem 'rails_12factor', group: :production
 
 gem 'active_model_serializers'
 
@@ -29,3 +32,5 @@ gem 'rack-cors', :require => 'rack/cors'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+ruby "2.2.1"
