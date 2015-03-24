@@ -31,5 +31,6 @@ module BlogApi
           :methods => [:get, :post, :delete, :put, :options, :head],
           :max_age => 0
       end
+    end
   end
 end
