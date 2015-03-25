@@ -11,6 +11,7 @@ group :test, :development do
   gem 'sqlite3'
 end
 
+gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 gem 'active_model_serializers'
